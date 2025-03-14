@@ -6,7 +6,7 @@ export default function Page() {
       <h1>カテゴリー一覧画面</h1>
       <ul>
         <li>
-          <Link href="/categories/flowe">花</Link>
+          <Link href="/categories/flower">花</Link>
         </li>
         <li>
           <Link href="/categories/animal">動物</Link>
