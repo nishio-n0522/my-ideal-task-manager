@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <div>
-      <h1>きぎょうじょうほう</h1>
+      <h1>企業情報</h1>
     </div>
   );
 }

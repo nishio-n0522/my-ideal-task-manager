@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { LikeButton } from "./LikeButton";
+
 type Props = {
   params: Promise<{ photoId: string }>;
 };
@@ -13,8 +16,15 @@ export default async function Page({ params }: Props) {
             <th>概要</th>
             <td>概要テキスト</td>
           </tr>
+          <tr>
+            <th>カテゴリー</th>
+            <td>
+              <Link href="/categories/flower">花</Link>
+            </td>
+          </tr>
         </tbody>
       </table>
+      <LikeButton photoId={photoId} />
     </div>
   );
 }
